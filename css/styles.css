@@ -812,6 +812,11 @@ button {
 .modal-form-container {
   margin-bottom: 8px;
 }
+
+.texarea-cont {
+  margin-bottom: 16px;
+}
+
 .modal-label {
   display: block;
   color: var(--lightslate);
@@ -865,9 +870,12 @@ button {
   align-items: flex-start;
   background-color: transparent;
   color: var(--navyblue-modal);
-  padding: 8px 8px 8px 16px;
+  padding: 8px 16px;
   outline: transparent;
   resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-textarea::placeholder {
