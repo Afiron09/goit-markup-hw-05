@@ -876,6 +876,11 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-modal {
+  margin-bottom: 24px;
 }
 
 .modal-textarea::placeholder {
@@ -891,6 +896,7 @@ button {
 }
 
 .modal-btn {
+  display: block;
   color: var(--primary-white-color);
   text-align: center;
   font-family: inherit;
@@ -908,6 +914,7 @@ button {
   background: var(--logo-text-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon {
@@ -940,6 +947,9 @@ button {
   margin-right: 8px;
   border: 1px solid var(--navyblue-modal);
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .check-text .span-rectangle {
