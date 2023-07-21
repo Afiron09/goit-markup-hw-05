@@ -951,9 +951,10 @@ button {
 }
 
 .modal-check:checked + .check-text > .span-rectangle {
-  background-color: var(--active-link-color);
+  background-color: #404bbf;
   border: none;
-  fill: var(--fill-icon);
+  fill: #ffffff;
+  border-color: #404bbf;
 }
 
 .modal-check:focus + .check-text .span-rectangle {
