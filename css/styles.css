@@ -953,7 +953,7 @@ button {
 .modal-check:checked + .check-text > .span-rectangle {
   background-color: var(--active-link-color);
   border: none;
-  fill: var(--fill-icon)
+  fill: var(--fill-icon);
   border-color: var(--active-link-color);
 }
 
