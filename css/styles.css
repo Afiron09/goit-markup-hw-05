@@ -956,8 +956,3 @@ button {
   fill: var(--fill-icon);
   border-color: var(--active-link-color);
 }
-
-.modal-check:focus + .check-text .span-rectangle {
-  border: 1px solid var(--active-link-color);
-  transition: 0.5s;
-}
